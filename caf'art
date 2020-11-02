@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+    <title>Les Caf'art de France</title>
+  </head>
+  <body>
+
+  	<?php require_once('Menu.php') ?>
+    <h1>Les Caf'Art de France</h1>
+    <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Ville</th>
+      <th scope="col">Coordonées</th>
+      <th scope="col">Oeuvre présenté</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Toulouse</td>
+      <td>7 Avenue de Suffrens</td>
+      <td>Tableau peint main A toute vitesse</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Strasbourg</td>
+      <td>4 Rue Jules</td>
+      <td>Vitesse !</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Marseille</td>
+      <td>4 Rue Chalande</td>
+      <td>Café</td>
+    </tr>
+  </tbody>
+</table>
+  </body>
