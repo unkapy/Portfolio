@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+
+
+
+    <title>Quizz</title>
+  </head>
+  <body>
+<?php require_once('Menu.php') ?>
+    <h1>Quizz</h1>
+      <div class='row'>
+        <div class='col-lg-12'>
+              <label id='quizz'>
+            <b><p>Si je double ma vitesse en cas de choc, je mulitplie le choc par 2  </p></b>
+              <input type="radio" name="Prenom" id="VRAI"/>VRAI
+              <input type="radio" name="Prenom" id="FAUX"/>FAUX
+              <b><p>Quand ma vitesse double l'énergie cinetique est multiplié par  </p></b>
+              <input type="radio" name="vitesse" id="1"/>2
+              <input type="radio" name="Vitesse" id="2"/>4
+              <input type="radio" name="Vitesse" id="3"/>6
+              <b><p>Un choc à 50 km/h équivaut à :  </p></b>
+              <input type="radio" name="choc" id="4"/>une chute d'un 4ème étage
+              <input type="radio" name="choc" id="5"/>une chute d'un escabeau
+              <input type="radio" name="choc" id="6"/>une chute de vélo
+              <b><p>Par temps de pluie, les distances de freinage sont multipliées  </p></b>
+              <input type="radio" name="freinage" id="7"/>par 1
+              <input type="radio" name="freinage" id="8"/>par 2
+              <input type="radio" name="freinage" id="9"/>par 3
+              <b><p>A 40 km/h, le champ de vision du conducteur est de 100 degrés. A 130 km/h, il est de :  </p></b>
+              <input type="radio" name="vision" id="10"/>90 degrés
+              <input type="radio" name="vision" id="11"/>50 degrés
+              <input type="radio" name="vision" id="12"/>30 degrés
+              <br>
+              <input type="submit" onclick="verif();" name="sub1"/><br />
+            </label>
+            <div id="alert"></div>
+      </div>
+    </div>
+  </body>
