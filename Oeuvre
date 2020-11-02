@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+    <title>Menu Principal</title>
+  </head>
+  <body>
+  	<?php require_once('Menu.php') ?>
+
+	<div class="card mb-3">
+  <img src="image/art.jpeg" class="card-img-top">
+  <div class="card-body">
+    <h5 class="card-title">LA VOITURE DANS L’ART CONTEMPORAIN</h5>
+    <p class="card-text">La voiture, symbole de vitesse, de progrès, de puissance, d’érotisme, de masculinité,
+ 			mais aussi de mort et de destruction…est apparue dans l’art avec le futurisme.<br>
+			Pur objet de notre ère industrielle, elle fait partie du quotidien de chacun,
+ 			en particulier en Amérique du Nord, où elle est plus qu’ailleurs synonyme de liberté.<br>
+			Les relations entre l’art et l’automobile débutent assez rapidement, avec les Futuristes italiens,
+ 			qui y voient un idéal de beauté, jusqu’aux artistes contemporains, qui y projettent leurs angoisses liées <br>
+			aux dangers environnementaux ou aux conflits sociaux.<br>
+ 			Mais il y a aussi des créations ludiques où l’on sent bien que les artistes ont pris un malin plaisir à 
+ 			transformer les voitures pour en changer l’apparence,<br>
+  			le poids, la forme ainsi que la matière. 
+  			Voitures molles, difformes entrent dans les musées avec bonheur <br>
+  			et un désir de narguer par ses nouvelles apparences le regardeur pantois. </p>
+    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+  </body>
